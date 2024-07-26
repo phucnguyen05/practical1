@@ -9,7 +9,7 @@ bool is_fanarray(int array[], int n){
         }
     }
     if (n%2!=0){
-        if(array[mid-1]>array[mid+1]){
+        if(array[mid-1]>array[mid]){
             return false;
         }
     }
